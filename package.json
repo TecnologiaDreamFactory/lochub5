@@ -1,0 +1,11 @@
+{
+  "name": "lochub-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "webp:mosaic": "node scripts/generate-mosaic-webp.mjs"
+  },
+  "devDependencies": {
+    "sharp": "^0.33.5"
+  }
+}
