@@ -1529,6 +1529,18 @@ footer {
     font-size: 0.9rem;
 }
 
+footer p {
+    margin: 0;
+    white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+    footer {
+        padding: 1.25rem 0.5rem;
+        font-size: clamp(0.62rem, 2.8vw, 0.9rem);
+    }
+}
+
 /* ── Botão flutuante WhatsApp ── */
 .whatsapp-float {
     position: fixed;
